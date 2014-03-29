@@ -4,6 +4,7 @@ from sys import argv, exit
 from time import time
 from fuse import FUSE, Operations, LoggingMixIn
 import os
+import json
 
 import stat
 import errno
